@@ -142,15 +142,6 @@ objects:
                 requests:
                   cpu: 50m
                   memory: 300Mi
-              volumeMounts:
-                - mountPath: /deployments/config/mappings.json
-                  name: ${APPLICATION_NAME}-mappings
-                  subPath: mappings.json
-          volumes:
-            - configMap:
-                defaultMode: 420
-                name: ${APPLICATION_NAME}-mappings
-              name: ${APPLICATION_NAME}-mappings
 parameters:
   - description: The name for the application.
     displayName: Nombre de la aplicación
