@@ -16,9 +16,9 @@ public class HelloController {
 		System.out.println("Example Error");
 		System.out.println("Example Error");
 		System.out.println("Example Error");
-		System.out.println("Example Error");System.out.println("Example Error");
-
-
+		System.out.println("Example Error");
+		System.out.println("Example Error");
+		return "";
 	}
 
 }
