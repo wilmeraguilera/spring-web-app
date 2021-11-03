@@ -11,14 +11,4 @@ public class HelloController {
 		return "Greetings from Spring Boot!";
 	}
 
-
-	public String idex2(){
-		System.out.println("Example Error");
-		System.out.println("Example Error");
-		System.out.println("Example Error");
-		System.out.println("Example Error");
-		System.out.println("Example Error");
-		return "";
-	}
-
 }
